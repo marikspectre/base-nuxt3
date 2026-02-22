@@ -1,0 +1,352 @@
+{
+  "action": {
+    "cancel": "Bekor qilish",
+    "download": "Yuklash",
+    "downloadAsExcel": "Yuklash (Excel)",
+    "downloadRecord": "Videoni ko'rish",
+    "plural": "Amallar",
+    "dataSuccessfullyUpdated": "Ma'lumotlar muvaffaqiyatli yangilandi",
+    "save": "Saqlash",
+    "success": "Muvaffaqiyatli",
+    "error": "Xatolik yuz berdi",
+    "create": {
+      "createNewWagon": "Vagon yaratish",
+      "createNewUser": "Foydalanuvchi yaratish",
+      "createNewRole": "Rol yaratish"
+    },
+    "assign": {
+      "roleToUser": "Foydalanuvchiga rol biriktirish"
+    },
+    "back": "Orqaga"
+  },
+  "ai": {
+    "title": "SI"
+  },
+  "all": {
+    "title": "Barchasi"
+  },
+  "camera": {
+    "cameraState": "Kamera holati",
+    "ipAddress": "IP manzili",
+    "networkState": "Holati",
+    "online": "Online",
+    "offline": "Offline",
+    "camerasState": "Kameralar holati",
+    "lastPing": "Oxirgi online bo'lgan vaqti",
+    "video": "Video",
+    "title": "Kamera",
+    "list": "Kameralar",
+    "companies": "Korxonalar",
+    "statistics": "Vagonlar statistikasi",
+    "wagonEnteredAt": "Kirish vaqti",
+    "station": "Stansiya",
+    "stationCode": "Kod",
+    "wagonAllCount": "Vagon",
+    "direction": "Yo'nalish",
+    "searchName": "Kamera nomi bo'yicha qidiruv",
+    "camera_name": "Kamera nomi",
+    "totalWagonsNumber": "Umumiy vagonlar soni",
+    "wagonsDirection": "Vagonlar yo'nalishi",
+    "enter": "Kirish",
+    "exit": "Chiqish",
+    "itemsWithDefects": "Aniqlanmaganlarni ko’rsatish",
+    "cards": {
+      "totalTrains": "Jami poyezdlar",
+      "totalEnteredTrains": "Stansiyalarga kirgan jami poyezdlar",
+      "totalExitedTrains": "Stansiyalardan chiqqan jami poyezdlar",
+      "detectedTrainsPercentage": "Aniqlangan poyezdlar foizi",
+      "weekly": "Haftalik",
+      "monthly": "Oylik",
+      "yearly": "Yillik",
+      "daily": "Kunlik",
+      "select_date_range": "Sana oralig'ini tanlang"
+    }
+  },
+  "helmet": {
+    "title": "Kaskа",
+    "list": "Kaskalar",
+    "companies": "Korxonalar",
+    "statistics": "Kaskalar statistikasi",
+    "cameraName": "Kamera raqami",
+    "companyName": "Joy nomi",
+    "company": "Korxona nomi",
+    "time": "Vaqti",
+    "definedImage": "Aniqlangan surat",
+    "fullPicture": "To‘liq surat",
+    "ruleStatus": "Intizom darajasi",
+    "violation": "Qoida buzilishi",
+    "violationNumber": "Qoida buzilishlari soni",
+    "cameraNumber": "Kamera soni"
+  },
+  "common": {
+    "screenshot": "Ekran tasviri",
+    "type": "Turi",
+    "pause": "To'xtatish",
+    "play": "Ijro etish",
+    "hello": "Salom",
+    "copied": "Nusxalandi",
+    "copyFailed": "Nusxalashda xatolik yuz berdi",
+    "login": "Login",
+    "name": "Nomi",
+    "status": {
+      "good": "Yaxshi",
+      "average": "O'rta",
+      "bad": "Yomon"
+    },
+    "photo": "Surat",
+    "numberPhoto": "Raqam surati",
+    "wagonNumber": "Vagon raqami",
+    "weighedAt": "Vagon tortilgan vaqti",
+    "loadNorm": "Yuk ko’tarish normasi",
+    "measuredWeight": "O'lchangan og'irlik",
+    "loadInWagon": "Vagondagi yuk",
+    "time": "Vaqti",
+    "startDate": "Boshlanish sanasi",
+    "endDate": "Tugash sanasi",
+    "askQuestion": "Savollaringiz bo’lsa yozing"
+  },
+  "date": {
+    "choose": "Sanani tanlang",
+    "chooseTheDate": "Kerakli sanani tanlang",
+    "from": "Dan",
+    "till": "Gacha"
+  },
+  "n": {
+    "ton": "{n} tonna"
+  },
+  "pagination": {
+    "next": "Oldinga",
+    "prev": "Orqaga"
+  },
+  "platform": {
+    "libraAI": "Tarozi AI",
+    "title": "Platforma",
+    "scales": "Tarozi AI",
+    "camera": "Vagon vision",
+    "helmet": "Kaska vision",
+    "app": "Tizim boshqaruvi",
+    "chat": "Chat Bot",
+    "aiAssistant": "AI yordamchi",
+    "descriptionsList": {
+      "scales": "AI asosidagi tarozi tizimi temiryo‘l logistikasida vagon og‘irligini aniqlash jarayonini to‘liq avtomatlashtiradi. Tizim real vaqt rejimida kamera, sensor va harakat ma’lumotlarini birlashtirib, har bir vagonning aniq og‘irligini inson aralashuvisiz hisoblab beradi. Sun’iy intellekt algoritmlari vagon shakli, tezligi, harakat trayektoriyasi va kontakt nuqtalarini tahlil qilib, an’anaviy usullarga nisbatan bir necha barobar yuqori aniqlikni ta’minlaydi. Har bir o‘lchov avtomatik tarzda qayd etilib, markaziy bazaga yuboriladi va istalgan payt monitoring, audit yoki yuk nazorati uchun ishlatilishi mumkin.",
+      "camera": "Wagon Vision temiryo‘l logistikasida vagon raqamlarini aniqlash jarayonini to‘liq avtomatlashtiruvchi sun’iy intellektga asoslangan ilg‘or tizimdir. Kamera oqimlari real vaqt rejimida qayta ishlanadi va AI modeli harakatlanayotgan yoki to‘xtab turgan vagonlarning raqamlarini aniq o‘qib, raqamlarni avtomatik ravishda raqamlashtirilgan shaklga keltiradi. Tizim har xil yorug‘lik sharoitlari, ifloslangan yuzalar, eskirgan yoki qisman ko‘rinadigan raqamlar bo‘lishiga qaramay, chuqur o‘rganish (deep learning) algoritmlari yordamida yuqori aniqlikni ta’minlaydi.",
+      "helmet": "Kaska Vision ishlab chiqarish, qurilish va temiryo‘l infratuzilmasi kabi xavf darajasi yuqori bo‘lgan sohalarda hodimlarning xavfsizlik qoidalariga rioya qilinishini avtomatik nazorat qiluvchi ilg‘or sun’iy intellekt tizimidir. AI real vaqt rejimida video oqimlarni tahlil qilib, har bir hodimning kaska, himoya ko‘zoynagi, maxsus forma, signal jileti yoki boshqa shaxsiy himoya vositalarini to‘g‘ri taqib-taqmayotganini aniqlaydi. Tizim harakatlanayotgan yoki turib ishlayotgan hodimlarni aniqlab, ulardagi xavfsizlik atributlarini segmentatsiya va obyekt tanib olish algoritmlari orqali tekshiradi.",
+      "chat": "Railway AI Chat Bot temiryo‘l sohasida axborot olish jarayonini to‘liq avtomatlashtirib, foydalanuvchilarga real vaqt rejimida aniq va tezkor ma’lumotlarni taqdim etuvchi sun’iy intellektga asoslangan raqamli yordamchidir. Tizim temiryo‘l infratuzilmasi, stansiyalar, marshrutlar, harakat jadvali, yuk tashish tartiblari, xavfsizlik protokollari, texnik reglamentlar va boshqa ko‘plab jarayonlar haqida batafsil ma’lumotlarni tahlil qilib, ularni foydalanuvchi savollariga moslab yetkazadi."
+    }
+  },
+  "wagons": {
+    "title": "Vagonlar",
+    "name": "Vagon nomi"
+  },
+  "station": {
+    "choose": "Stansiya tanlang",
+    "plural": "Stansiyalar",
+    "search": "Stansiya qidiruvi",
+    "overload": "Ortiqcha yuk",
+    "clean": "Toza yuk"
+  },
+  "statistic": {
+    "title": "Statistika"
+  },
+  "wagon": {
+    "changeWagonNumber": "Vagon raqamini o'zgartirish",
+    "orderNumber": "Vagon tartib raqami",
+    "capacity": "Yuk ko'tarish normasi",
+    "cargoWeight": "Vagondagi yuk",
+    "dowloadAsExcel": "Vagonlarni Excel fayl ko'rinishida yuklash",
+    "downloadType": {
+      "daily": "Kunlik",
+      "period": "Davriy"
+    },
+    "image": "Surati",
+    "listAll": "Barcha vagonlar ro'yhati",
+    "measured": "O'lchangan og'irlik",
+    "number": "Vagon raqami",
+    "numberImage": "Raqam surati",
+    "plural": "Vagonlar",
+    "search": "Vagon qidiruv",
+    "statistics": "Vagonlar statistikasi",
+    "time": "Vagon tortilgan vaqti",
+    "totalWagons": "Umumiy vagonlar soni"
+  },
+  "auth": {
+    "login": "Kirish",
+    "username": "Foydalanuvchi nomi",
+    "password": "Parol",
+    "description": "Kirish uchun foydalanuvchi parolingizni kiriting",
+    "projectList": "Siz tizimga kirish orqali yuqoridagi loyihalarni nazorat qila olasiz",
+    "selectRole": "Rolni tanlang",
+    "slide": {
+      "title": "Platformaga xush kelibsiz",
+      "description": "Temir yo'llarini raqamlashtirish va AI kameralari orqali nazorat qilish"
+    },
+    "logout": "Chiqish"
+  },
+  "table": {
+    "empty": "Ma'lumotlar mavjud emas"
+  },
+  "allWagons": {
+    "hasWagonInformations": "Vagon ma'lumotlari mavjud",
+    "noWagonInformations": "Vagon ma'lumotlari mavjud emas",
+    "confirmed": "Tasdiqlangan",
+    "unconfirmed": "Tasdiqlanmagan",
+    "checkStatus": "Tekshirish holati",
+    "title": "Barcha vagonlar",
+    "number": "Poyezd raqami",
+    "loadCapacity": "Yuk ko‘tarish qobiliyati",
+    "wagonWeight": "Vagon og‘irligi",
+    "form": {
+      "number": "Vagon raqami",
+      "numberPlaceholder": "Vagon raqamini kiriting",
+      "weight": "Og'irligi (tonna)",
+      "weightPlaceholder": "Vagon og'irligini kiriting",
+      "wagonWeight": "Vagon vazni (tonna)",
+      "wagonWeightPlaceholder": "Vagon vaznini kiriting"
+    }
+  },
+  "app": {
+    "users": "Foydalanuvchilar",
+    "roles": "Rollar"
+  },
+  "users": {
+    "roles": "Xodim rollari",
+    "changePassword": "Parolni o'zgartirish",
+    "profile": "Profil",
+    "login": "Login",
+    "search": "Foydalanuvchi qidiruvi",
+    "form": {
+      "login": "Login",
+      "loginPlaceholder": "Login kiriting",
+      "password": "Parol",
+      "passwordPlaceholder": "Parol kiriting",
+      "role": "Rol",
+      "rolePlaceholder": "Rolni tanlang",
+      "organization": "Korxona",
+      "organizationPlaceholder": "Korxonani tanlang",
+      "organizationType": "Korxona turi",
+      "organizationTypePlaceholder": "Korxona turini tanlang",
+      "apps": "Dasturlar",
+      "appsPlaceholder": "Dasturlarni tanlang",
+      "pin": "JSHSHIR",
+      "pinPlaceholder": "JSHSHIR kiriting",
+      "userInfo": "Foydalanuvchi haqida ma'lumotlar"
+    },
+    "organizationTypes": {
+      "mtu": "MTU",
+      "station": "Stansiya"
+    }
+  },
+  "roles": {
+    "search": "Rol qidiruvi",
+    "form": {
+      "name": "Rol nomi",
+      "namePlaceholder": "Rol nomini kiriting"
+    }
+  },
+  "error": {
+    "pageNotFound": "Sahifa topilmadi",
+    "route": "Siz no’tog’ri manzil kiritdingiz qayta bosh sahifaga qayting",
+    "homePage": "Bosh sahifa"
+  },
+  "scales": {
+    "sostavNumber": "Sostav raqami",
+    "customsByBorder": "Chegara bojxona tarozilari",
+    "BorderNumber": "Bojxona raqami",
+    "export": "Eksport",
+    "import": "Import",
+    "total": "Jami",
+    "customs": "Bojxona tarozilari",
+    "statistics": {
+      "total_count": "Umumiy o'lchangan vagonlar",
+      "total_weight": "Yuk tashish hajmi (tonna)",
+      "extra_weighted_wagons": "Ortiqcha o'lchangan vagonlar soni",
+      "extra_weight": "Ortiqcha yuk tashish (tonna)",
+      "best_region": "Eng yaxshi hudud",
+      "confirmed_wagons_by_region": "Tasdiqlangan vagonlar hududlar kesimida",
+      "confirmed_wagons_by_percentage": "Tasdiqlangan vagonlar foiz ko’rsatgichi",
+      "extra_weight_wagons_by_percentage": "Ortiqcha o'lchangan vagonlar foiz ko’rsatgichi",
+      "wagons_statistics_by_period": "Davr bo'yicha vagonlar statistikasi",
+      "select_station": "Stansiyani tanlang",
+      "measuredWagonsCount": "O'lchangan vagonlar soni",
+      "forYear": "{year}-yildagi statistik ma'lumotlar",
+      "within_norm": "Kam yuk",
+      "overloaded": "Ortiqcha yuk",
+      "forStations": "Stansiyalar bo'yicha ma'lumotlar"
+    }
+  },
+  "months": {
+    "january": "Yanvar",
+    "february": "Fevral",
+    "march": "Mart",
+    "april": "Aprel",
+    "may": "May",
+    "june": "Iyun",
+    "july": "Iyul",
+    "august": "Avgust",
+    "september": "Sentabr",
+    "october": "Oktabr",
+    "november": "Noyabr",
+    "december": "Dekabr"
+  },
+  "chat": {
+    "title": "Chat Bot",
+    "yourQuestions": "Sizning savollaringiz"
+  },
+  "systemTypes": {
+    "none": "Yo'q",
+    "scale": "Tarozi",
+    "helmet": "Kaska",
+    "vision": "Vision",
+    "management": "Boshqaruv",
+    "assistant": "Yordamchi"
+  },
+  "customs": {
+    "wagonNumber": "Vagon raqami",
+    "scaleWeightInTons": "Tarozi ko'rsatkichi",
+    "goodGrossWeightInTons": "Yuk og'irligi",
+    "extraWeight": "Ortiqcha yuk",
+    "wagonNormalWeight": "Yuk ko'tarish normasi",
+    "weighingTime": "Yuborilgan vaqti"
+  },
+  "notification": {
+    "errorMessage": "Nimadir noto'g'ri ketdi, iltimos qayta urinib ko'ring"
+  },
+  "pageTitles": {
+    "indexPage": "DAS UTY AI Platformasi",
+    "scales": {
+      "statisticsPage": "Tarozi AI Statistikasi",
+      "stationsPage": "Tarozi AI Stansiyalari",
+      "stationDetailPage": "{station} stansiyasi tafsilotlari",
+      "wagonsPage": "Tarozi AI Vagonlari",
+      "allWagonsPage": "Barcha vagonlar sahifasi",
+      "customsByBorderPage": "Chegara bojxona tarozilari sahifasi",
+      "customsPage": "Bojxona tarozilari sahifasi"
+    },
+    "camera": {
+      "statisticsPage": "Vagon Vision Statistikasi",
+      "wagonsPage": "Vagon Vision Vagonlari",
+      "allWagonsPage": "Barcha vagonlar sahifasi",
+      "wagonsDetail": "{station} stansiyasi vagonlari tafsilotlari sahifasi",
+      "cameraDetails": "{camera} kamerasi tafsilotlari sahifasi"
+    },
+    "helmet": {
+      "statisticsPage": "Kaska Vision Statistikasi",
+      "companiesPage": "Kaska Vision Korxonalari sahifasi",
+      "companiesDetailPage": "{org} korxonasi tafsilotlari sahifasi",
+      "camerasPage": "Kaska Vision Kameralari sahifasi"
+    },
+    "auth": {
+      "loginPage": "Tizimga kirish sahifasi"
+    },
+    "app": {
+      "usersPage": "Foydalanuvchilar sahifasi",
+      "rolesPage": "Rollar sahifasi",
+      "permissionsPage": "Ruxsatlar sahifasi"
+    }
+  },
+  "pageDescriptions": {
+    "scales": {
+      "statisticsPageDescription": "Tarozi AI platformasining statistik sahifasida vagonlar og'irligi, yuk tashish hajmi va ortiqcha yuklangan vagonlar kabi muhim ko'rsatkichlar taqdim etilgan. Ushbu sahifa foydalanuvchilarga tarozi tizimining samaradorligini baholash va operatsion qarorlar qabul qilish uchun zarur bo'lgan ma'lumotlarni taqdim etadi."
+    }
+  }
+}

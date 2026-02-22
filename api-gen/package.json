@@ -1,0 +1,6 @@
+{
+  "type": "commonjs",
+  "scripts": {
+    "api-gen": "node generate.cjs"
+  }
+}
