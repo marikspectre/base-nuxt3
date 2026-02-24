@@ -16,8 +16,8 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { charset: 'utf-8' },
         { name: 'format-detection', content: 'telephone=no' },
-        { name: 'og:title', content: 'DAS UTY AI' },
-        { name: 'og:description', content: 'AI Platform for railway freight automation' },
+        { name: 'og:title', content: 'DES' },
+        { name: 'og:description', content: 'Digital energy system' },
       ]
     },
   },
@@ -103,17 +103,17 @@ export default defineNuxtConfig({
 
   vite: {
     plugins: [
-      AutoImport({
-        imports: ["vue"],
-        resolvers: [ElementPlusResolver({ directives: true })],
-        dts: "auto-imports.d.ts"
-      }),
       Components({
         resolvers: [
           ElementPlusResolver({ importStyle: false, directives: true })
         ],
         dts: "components.d.ts"
-      })
+      }),
+      AutoImport({
+        imports: ["vue"],
+        resolvers: [ElementPlusResolver({ directives: true })],
+        dts: "auto-imports.d.ts"
+      }),
     ]
   },
 

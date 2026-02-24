@@ -203,7 +203,7 @@ export function useElementLocale() {
   const { locale } = useI18n()
 
   const elLocale = computed<Language>(() => {
-    return elLocales[locale.value] || en
+    return elLocales[locale.value] || uz
   })
 
   return { elLocale }

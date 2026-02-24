@@ -1,6 +1,0 @@
-{
-  "swaggerUrl": "https://ai-project.das-uty.uz/api/docs-json",
-  "outputFile": "apiMethods.ts",
-  "outputPath": "../api/",
-  "rmMethodPrefix": true
-}

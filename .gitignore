@@ -4,6 +4,8 @@ node_modules/
 # build files
 .nuxt/
 .output/
+.claude/
+.husky/
 dist/
 
 # logs
