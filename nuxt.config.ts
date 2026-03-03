@@ -1,7 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import AutoImport from "unplugin-auto-import/vite";
-import Components from "unplugin-vue-components/vite";
-import { ElementPlusResolver } from "unplugin-vue-components/resolvers";
 
 export default defineNuxtConfig({
   devtools: { enabled: false },
@@ -29,11 +26,13 @@ export default defineNuxtConfig({
     }
   },
 
-  // modules: [
-  //   "nuxt-svgo"
-  // ],
-
-  modules: ["nuxt-svgo", "@nuxtjs/i18n", "nuxt-echarts", "@pinia/nuxt"],
+  modules: [
+    "nuxt-svgo",
+    "@nuxtjs/i18n",
+    "nuxt-echarts",
+    "@pinia/nuxt",
+    "@element-plus/nuxt",
+  ],
 
   echarts: {
     renderer: ["svg", "canvas"],
@@ -45,7 +44,6 @@ export default defineNuxtConfig({
   css: [
     "~/assets/styles/main.css",
     "~/assets/styles/fonts.css",
-    "element-plus/dist/index.css"
   ],
 
   runtimeConfig: {
@@ -99,22 +97,6 @@ export default defineNuxtConfig({
 
   imports: {
     autoImport: true
-  },
-
-  vite: {
-    plugins: [
-      Components({
-        resolvers: [
-          ElementPlusResolver({ importStyle: false, directives: true })
-        ],
-        dts: "components.d.ts"
-      }),
-      AutoImport({
-        imports: ["vue"],
-        resolvers: [ElementPlusResolver({ directives: true })],
-        dts: "auto-imports.d.ts"
-      }),
-    ]
   },
 
   svgo: {
